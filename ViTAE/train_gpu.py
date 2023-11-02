@@ -45,7 +45,7 @@ parser.add_argument('-c', '--config', default='', type=str, metavar='FILE',
 parser = argparse.ArgumentParser(description='T2T-ViT Training and Evaluating')
 
 # Dataset / Model parameters
-parser.add_argument('--data_root', type=str, default='/usr/local/Huangshuqi/ImageData/flower_data/',
+parser.add_argument('--data_root', type=str, default='./flower_data/',
                     help='dataset root path')
 parser.add_argument('--dataDividePath', default='', type=str,
                     help='root dir to the paths that save txt to the image files')
